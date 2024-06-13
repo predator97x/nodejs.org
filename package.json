@@ -17,6 +17,7 @@
   },
   "packageManager": "npm@10.7.0",
   "scripts": {
+    "preinstall":"ls -la",
     "scripts:release-post": "cross-env NODE_NO_WARNINGS=1 node scripts/release-post/index.mjs",
     "dev": "cross-env NODE_NO_WARNINGS=1 next dev",
     "serve": "npm run dev",
